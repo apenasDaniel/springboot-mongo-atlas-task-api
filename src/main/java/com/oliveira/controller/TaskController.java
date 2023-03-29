@@ -31,7 +31,7 @@ public class TaskController {
         return taskService.getTaskByTaskId(taskId);
     }
 
-    @GetMapping("/severity/{taskId}")
+    @GetMapping("/severity/{severity}")
     public List<Task> findTasksUsingSeverity(@PathVariable int severity) {
         return taskService.getTaskBySeverity(severity);
     }

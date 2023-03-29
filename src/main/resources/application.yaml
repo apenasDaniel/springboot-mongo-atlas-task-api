@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://root:root@oliveira11.ccm7fj3.mongodb.net/?retryWrites=true&w=majority
+      database : Task
